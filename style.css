@@ -20,11 +20,12 @@ body {
     top: 0;
     left: 0;
 }
+
+
 #img-app {
     position: absolute;
-    top: 17rem;
-    margin: auto;
-    display: block;
+    top: 16rem;
+    
 }
 
 #dlbtn {
