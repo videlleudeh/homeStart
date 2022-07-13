@@ -21,26 +21,32 @@ body {
     left: 0;
 }
 
-
-#img-app {
-    position: absolute;
-    top: 16rem;
-    
-}
-
 #dlbtn {
     background-color: #ca8a04;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
-
-#download-button {
-    margin-top: 8rem;
-    margin-bottom: 7rem;
-}
-
-/* #key, #paypal, #lightbulb {
-    border: 5px solid #ca8a04;
-} */
 
 button:hover {
     background-color: rgb(248, 95, 95);
+}
+
+#section-2 {
+    margin: 6rem 0;
+}
+
+#section-3 {
+    background-color: black;
+}
+
+#section-3 h1 {
+    color: #ca8a04;
+}
+
+/* #div-sec-3 {
+    padding: 3rem 3rem;
+} */
+
+p {
+    font-size: 1.2rem;
 }
