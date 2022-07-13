@@ -6,27 +6,40 @@ body {
 
 #home-link, #contact-link {
     color: black;
-    /* font-weight: bold; */
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 #navbar, #header {
     background-color: #ca8a04;
 }
 
-#div-logo {
-    justify-content: center;
-    align-items: center;
-}
 
 #img-couch {
-    padding-top: 10rem;
+    padding-top: 13rem;
     position: relative;
     top: 0;
     left: 0;
 }
 #img-app {
     position: absolute;
-    top: 15rem;
-    left: 35rem;
+    top: 17rem;
+    margin: auto;
+    display: block;
+}
+
+#dlbtn {
+    background-color: #ca8a04;
+}
+
+#download-button {
+    margin-top: 8rem;
+    margin-bottom: 7rem;
+}
+
+/* #key, #paypal, #lightbulb {
+    border: 5px solid #ca8a04;
+} */
+
+button:hover {
+    background-color: rgb(248, 95, 95);
 }
