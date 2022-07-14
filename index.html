@@ -50,7 +50,7 @@
     <header id="header">
         <div class="pt-4 mx-3 position-relative">
             <img src="images/couch.png" class="mx-auto d-block img-fluid" id="img-couch" alt="couch">
-            <div class="d-flex align-items-center justify-content-center position-absolute top-50 start-50 translate-middle"> 
+            <div class="d-flex align-items-center justify-content-center position-absolute top-50 start-50 translate-middle" id="img-app-div"> 
                 <img src="images/app.svg" class="img-fluid" id="img-app" alt="app">
             </div>
         </div>
@@ -69,7 +69,7 @@
             <div class="d-none d-lg-block">
                 <img src="images/dots.svg" alt="dots">
             </div>
-            <div class=" d-md-flex flex-md-row m-2  m-md-4">
+            <div class=" d-md-flex flex-md-row m-2 m-md-4">
                 <div class="d-flex flex-column justify-content-center align-items-center text-center p-2">
                     <div class="border border-5 border-warning rounded-circle p-3" id="key" >
                         <img src="images/key-fill.svg" class="mx-auto d-block img-fluid" alt="key-fill" width="40px" height="40px">
@@ -148,7 +148,45 @@
         </div>
     </section>
 
-    
+    <section id="section-5">
+        <div class=" d-md-flex flex-md-row my-5">
+            <div class="position-relative container-md d-flex flex-column justify-content-center align-items-center">
+                <div>
+                    <img src="images/lamp.png" class="img-fluid" alt="lamp">
+                </div>
+                <div class="py-4">
+                    <button type="button" class="btn p-sm-3" id="dlbtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                            <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                            <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                        </svg> Download App Now
+                    </button>
+                </div>
+            </div> 
+            <div class="position-absolute top-100 start-50 translate-middle d-none d-md-block"> 
+                <img src="images/app.svg" class="img-fluid" alt="app">
+            </div>   
+            
+            <div class="border border-5 border-dark rounded-3 p-3 mx-auto w-75 mx-md-4 ">
+                <h1>Contact Us</h1><br>
+                <form >
+                    <div class="mb-3 mt-3">
+                      <label for="name" class="form-label">ENTER NAME</label>
+                      <input type="name" class="form-control" id="name" name="name">
+                    </div>
+                    <div class="mb-3">
+                      <label for="email" class="form-label">ENTER EMAIL</label>
+                      <input type="email" class="form-control" id="email" name="email">
+                    </div>
+                    <div class="mb-3 mt-3">
+                        <label for="comment">ENTER MESSAGE</label>
+                        <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+                    </div>
+                    <button type="submit" class="btn my-3" id="dlbtn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
 </body>
 </html>
