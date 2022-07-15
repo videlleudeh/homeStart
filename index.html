@@ -12,9 +12,9 @@
 </head>
 
 <body>
-    <nav class="p-0 d-block navbar navbar-expand-md">
+    <nav class="p-0 d-block navbar navbar-expand-md navbar-light">
         <div class="d-flex justify-content-center align-items-center" id="navbar">
-            <div class="p-3 collapse navbar-collapse flex-fill" id="navbarCollapse">
+            <div class="p-3 collapse navbar-collapse flex-fill d-none d-md-block" id="navbarCollapse">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a href="#" class="nav-link mx-3 font-weight-bold" id="home-link">HOME</a>
@@ -29,7 +29,7 @@
                     <img src="images/logo.svg" class="img-fluid" alt="logo">
                 </a>
             </div>
-            <div class="p-3 collapse navbar-collapse flex-fill" id="navbarCollapse">
+            <div class="p-3 collapse navbar-collapse flex-fill d-none d-md-block" id="navbarCollapse">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a href="#" class="btn btn-danger mx-3 p-3 font-weight-bold" role="button">LOGIN</a>
@@ -41,11 +41,29 @@
                 </ul>
             </div>
 
-            <button class="navbar-toggler bg-secondary" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" title="button">
                 <span class="navbar-toggler-icon"></span>
             </button>   
         </div>
     </nav>
+    <div class="p-3 collapse navbar-collapse mx-auto" id="navbarCollapse">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link my-2 font-weight-bold" id="home-link-2">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link my-2 font-weight-bold" id="contact-link-2">CONTACT</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="btn btn-danger my-2 p-2 font-weight-bold w-100" role="button">LOGIN</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="btn btn-dark my-2 p-2 font-weight-bold w-100" role="button">SIGNUP
+                </a>
+            </li>
+        </ul>
+    </div>
 
     <header id="header">
         <div class="pt-4 mx-3 position-relative">
@@ -58,7 +76,7 @@
 
     <section id="section-2" >
         <div class="container mx-auto" id="download-button">
-            <button type="button" class="btn mx-auto d-block p-3" id="dlbtn">
+            <button type="button" class="btn mx-auto d-block p-3" id="dlbtn-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
                     <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
                     <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
@@ -155,7 +173,7 @@
                     <img src="images/lamp.png" class="img-fluid" alt="lamp">
                 </div>
                 <div class="py-4">
-                    <button type="button" class="btn p-sm-3" id="dlbtn">
+                    <button type="button" class="btn p-sm-3" id="dlbtn-3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
                             <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
                             <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>

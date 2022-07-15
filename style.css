@@ -4,12 +4,12 @@ body {
     padding: 0;
 }
 
-#home-link, #contact-link {
+#home-link, #contact-link, #home-link-2, #contact-link-2 {
     color: black;
     font-size: 1.3rem;
 }
 
-#navbar, #header {
+#navbar, #header, #navbarCollapse {
     background-color: #ca8a04;
 }
 
@@ -29,7 +29,7 @@ header #img-app {
     top: 10rem;
 }
 
-#dlbtn, #sign-up-btn {
+#dlbtn, #sign-up-btn, #dlbtn-2, #dlbtn-3 {
     background-color: #ca8a04;
     font-weight: bold;
     font-size: 1.2rem;
